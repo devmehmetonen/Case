@@ -1,0 +1,12 @@
+.language-switcher{
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0px;
+    z-index: 999;
+    width: 270px;
+    p {
+        margin: 0 10px;
+    }
+}

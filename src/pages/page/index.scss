@@ -1,0 +1,38 @@
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding-block: 100px;
+
+    span {
+        display: block;
+        margin-bottom: 4px;
+        margin-left: 2px;
+    }
+}
+
+.ant-input {
+    margin-bottom: 12px;
+}
+
+.table {
+    width: 80%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-inline: auto;
+
+    .ant-table-container {
+        border: 1px solid #0003;
+    }
+
+    .ant-table-thead {
+
+        .ant-table-cell {
+            background-color: #ccc;
+            color: #000;
+            &:hover{
+                background-color: #aaa!important;
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,17 @@
+.cInput{
+    width: 100%;
+    input{
+         border: 1px solid #0003;
+    }
+    label{
+        font-weight: 600;
+        margin-bottom: 6px;
+        display: block;
+    }
+    .ant-input-password {
+        padding-block: 0px;
+        input{
+            margin-bottom: 0;
+        }
+    }
+}   
